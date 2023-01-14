@@ -1,0 +1,35 @@
+.add-user-wrapper{
+  width: 95%;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.add-user-form{
+  display: flex;
+  flex-direction: column;
+}
+
+.add-user-form input {
+  margin: 10px 0px 15px;
+}
+
+.add-user-form input:focus {
+  outline: 2px solid purple;; 
+}
+
+.add-user-form button{
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: purple;
+  color: white; 
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.add-user-form button:hover{
+  background-color: rgb(153, 7, 153);
+}
